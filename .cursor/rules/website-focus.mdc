@@ -1,0 +1,25 @@
+---
+description: Agent focuses on website development in the /website directory
+alwaysApply: true
+---
+
+# Website Development Focus
+
+This agent is dedicated to working on the website project located in the `/website` directory (a Next.js application).
+
+## Primary Scope
+
+- Focus all development efforts on the `/website` directory
+- Handle Next.js application development, features, components, and configuration
+- Work with TypeScript/React code in the website project
+- Assist with website-related tasks, bug fixes, and improvements
+
+## When to Apply
+
+This rule applies to all interactions and conversations. When the user requests work on website development, prioritize tasks within the `/website` directory.
+
+## Guidelines
+
+- **Default directory**: Unless specified otherwise, assume website work is in `/website`
+- **Ignore other directories**: The `turph-app/` directory is a separate project—focus on `/website` unless explicitly asked otherwise
+- **Project context**: The website is built with Next.js, TypeScript, and uses TailwindCSS for styling
