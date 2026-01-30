@@ -43,14 +43,18 @@ Turph AI solves this through embedded workflow prototyping: rapidly discovering,
 
 We embed directly with enterprise teams for 4-5 weeks to:
 
-1. **Understand** actual workflows through user research and operational mapping
-2. **Prototype** solutions rapidly using AI tools for acceleration
-3. **Validate** with real data and user testing before implementation
-4. **Deliver** working prototypes and clear implementation roadmap
+1. **Understand** what users are actually trying to accomplish—the underlying task—not just how they do it now
+2. **Reimagine** how agentic solutions can complete those tasks in fundamentally different ways
+3. **Prototype** agentic solutions rapidly using AI tools for acceleration
+4. **Validate** with real data and user testing before implementation
+5. **Deliver** working prototypes and clear implementation roadmap
+
+**The Critical Difference:**
+Traditional UX digitizes existing processes. We reshape how tasks are completed. We don't take existing workflows and make them digital—we understand the underlying task, then reimagine how agentic solutions can enable completely different workflows.
 
 **The Result:**
-- Working prototypes that prove ROI
-- Clear understanding of what will deliver value
+- Working prototypes that prove ROI through fundamental improvements, not incremental
+- Clear understanding of what will deliver value through reshaped workflows
 - Implementation roadmap teams can execute
 - All in 4-5 weeks instead of 6-12 months
 - At $25-100K instead of $500K-$5M

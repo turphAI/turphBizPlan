@@ -89,6 +89,7 @@ Define your unique position in the embedded workflow prototyping market and arti
 - Typical structure: Design researchers + interaction designers + strategists
 - Methodology: Design thinking, user research, rapid prototyping
 - Outcome: Design system + prototype + recommendations
+- **Core Limitation:** They digitize existing processes. They observe current workflows and create digital versions of them.
 
 **Strengths:**
 - Deep user research expertise
@@ -98,20 +99,25 @@ Define your unique position in the embedded workflow prototyping market and arti
 - Good communication/storytelling
 
 **Weaknesses:**
-- Limited AI expertise
+- **Digitize existing processes rather than reimagining task completion**
+- Limited AI/agentic solution expertise
 - Smaller team capacity
 - Less business-focused (design-focused)
 - Limited workflow optimization expertise
 - Higher cost than some alternatives
 - May lack technical implementation capability
+- Tend to optimize existing workflows rather than reshape them
 
 **Pricing Model:** $8-15K per day (or $120-300K per month)
 
 **Why Enterprises Choose Them:** User research excellence, design thinking, beautiful prototypes
 
-**Why They DON'T Choose Them for Your Work:** Limited AI knowledge, not workflow optimization focused, smaller scale
+**Why They DON'T Choose Them for Your Work:** Limited AI knowledge, digitize rather than reimagine, not workflow optimization focused, smaller scale
 
-**Your Advantage:** Design thinking + AI acceleration = faster + cheaper, more scalable
+**Your Advantage:** 
+- **They digitize existing processes. You understand underlying tasks and reimagine how agentic solutions can reshape workflows.**
+- Design thinking + AI acceleration + agentic solution expertise = faster + cheaper + fundamentally better outcomes
+- Traditional UX optimizes processes. You rethink task completion.
 
 ---
 

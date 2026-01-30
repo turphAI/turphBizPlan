@@ -17,7 +17,7 @@ Create compelling pitch materials (elevator pitches, pitch deck framework, and s
 "Traditional consulting takes 6-12 months and costs $500K-$5M. AI firms jump straight to building without understanding workflows. In-house hiring takes 18-24 months and $1-3M/year. None of these work for validation."
 
 **Resolution (Solution):**
-"We embed directly with your teams for 4-5 weeks. We conduct user research, rapidly prototype solutions using AI acceleration, and validate what works with real data—before you commit to major implementation."
+"We embed directly with your teams for 4-5 weeks. We understand what users are actually trying to accomplish—the underlying task—then reimagine how agentic solutions can complete those tasks in fundamentally different ways. We rapidly prototype these reshaped workflows using AI acceleration, and validate what works with real data—before you commit to major implementation."
 
 **Result (Outcome):**
 "You know exactly what improvements will deliver ROI. You have working prototypes and an implementation roadmap. All in 4-5 weeks instead of 6-12 months. All for $25-100K instead of $500K-$5M."
@@ -35,11 +35,11 @@ Create compelling pitch materials (elevator pitches, pitch deck framework, and s
 
 ---
 
-**"I help enterprises discover workflow improvements through embedded prototyping."**
+**"I help enterprises reshape how tasks are completed through embedded prototyping—not digitize existing processes, but reimagine workflows with agentic solutions."**
 
 *[Pause 1 second]*
 
-**"Instead of months of consulting or building internal teams, we embed with your users for 4-5 weeks, conduct research, rapidly prototype solutions with AI, and validate what actually works. You get working prototypes and a clear roadmap to implement—faster and cheaper than any alternative."**
+**"Instead of months of consulting or building internal teams, we embed with your users for 4-5 weeks, understand what they're actually trying to accomplish, reimagine how agentic solutions can complete those tasks differently, rapidly prototype with AI, and validate what actually works. You get working prototypes and a clear roadmap to implement—faster and cheaper than any alternative."**
 
 **Time: ~30 seconds**
 **Tone: Confident, clear, outcome-focused**
@@ -55,13 +55,15 @@ Create compelling pitch materials (elevator pitches, pitch deck framework, and s
 
 **"Most companies know they have workflow problems, but struggle to find solutions that actually work. I help them solve that in a completely different way.**
 
-**Here's the challenge: Traditional consulting is expensive and takes 6-12 months. AI firms jump straight to building without understanding your workflows. And hiring internal teams takes 18-24 months and costs a fortune.**
+**Here's the challenge: Traditional consulting is expensive and takes 6-12 months. AI firms jump straight to building without understanding your workflows. Traditional UX digitizes existing processes. And hiring internal teams takes 18-24 months and costs a fortune.**
 
-**What I do is different. I embed directly with your teams for 4-5 weeks. We conduct user research to understand actual workflows—not what people think happens, but what really happens. Then we rapidly prototype solutions using AI tools to accelerate iteration. And we validate everything with real users before you commit to anything.**
+**What I do is different. I embed directly with your teams for 4-5 weeks. We understand what users are actually trying to accomplish—the underlying task—not just how they do it now. Then we reimagine how agentic solutions can complete those tasks in fundamentally different ways. We rapidly prototype these reshaped workflows using AI tools to accelerate iteration. And we validate everything with real users before you commit to anything.**
 
-**The result? You know exactly what improvements will drive ROI. You have working prototypes. You have an implementation roadmap. All in 4-5 weeks. All for $25-100K instead of $500K-$5M.**
+**The critical difference: Traditional UX digitizes existing processes. We reshape how tasks are completed. We don't take your current workflow and make it digital—we understand what you're trying to accomplish, then reimagine how agentic solutions can enable completely different workflows.**
 
-**I've spent 20 years solving customer problems at companies like Amazon and Fidelity, and I bring that user-centered approach to enterprise workflow optimization."**
+**The result? You know exactly what improvements will drive ROI through fundamental changes, not incremental. You have working prototypes. You have an implementation roadmap. All in 4-5 weeks. All for $25-100K instead of $500K-$5M.**
+
+**I've spent 20 years solving customer problems at companies like Amazon and Fidelity, and I bring that task-first, reimagining approach to enterprise workflow optimization."**
 
 **Time: ~60 seconds**
 **Tone: Consultative, credible, problem-solving**
@@ -207,18 +209,21 @@ Create compelling pitch materials (elevator pitches, pitch deck framework, and s
 - **Headline:** "Embedded Workflow Prototyping"
 - **Your approach:**
   1. Embed with users for 4-5 weeks
-  2. Conduct design research (understand actual workflows)
-  3. Rapidly prototype with AI acceleration
-  4. Validate with real data before implementation
-- **Visual:** 4-week engagement flow diagram
+  2. Understand what users are actually trying to accomplish (the underlying task)
+  3. Reimagine how agentic solutions can complete tasks in fundamentally different ways
+  4. Rapidly prototype agentic solutions with AI acceleration
+  5. Validate with real data before implementation
+- **Key Message:** "We don't digitize existing processes. We reshape how tasks are completed."
+- **Visual:** 4-week engagement flow diagram showing task understanding → reimagining → prototyping
 
 **Slide 5: Why It Works**
 - **Headline:** "Three Core Differentiators"
 - **Your advantages:**
-  1. **User-Centered:** Design research + prototyping (not tech-first assumptions)
+  1. **Task-First, Not Process-First:** Understand underlying tasks and reimagine with agentic solutions (not digitize existing workflows)
   2. **Fast:** 4-5 weeks vs. 6-12 months (10-26x faster)
   3. **Affordable:** $25-100K vs. $500K-$5M (5-50x cheaper)
-- **Visual:** Comparison visual (you vs. alternatives)
+- **Key Message:** "Traditional UX digitizes processes. We reshape task completion."
+- **Visual:** Comparison visual (you vs. alternatives) + diagram showing task understanding vs. process digitization
 
 **Slide 6: How We're Different**
 - **Headline:** "The Competitive Landscape"
@@ -371,10 +376,10 @@ Create compelling pitch materials (elevator pitches, pitch deck framework, and s
 ## 5. PITCH DECK TALKING POINTS (Key Things to Say)
 
 ### Opening (First 60 seconds)
-"Most enterprises know they have workflow problems, but they struggle to find solutions that actually work. And the traditional options are broken: consulting takes 6-12 months and costs $500K-$5M, AI firms jump straight to building without understanding your workflows, and hiring internal teams takes 18-24 months. I solve this differently—through embedded workflow prototyping."
+"Most enterprises know they have workflow problems, but they struggle to find solutions that actually work. And the traditional options are broken: consulting takes 6-12 months and costs $500K-$5M, AI firms jump straight to building without understanding your workflows, traditional UX digitizes existing processes, and hiring internal teams takes 18-24 months. I solve this differently—through embedded workflow prototyping that reshapes how tasks are completed, not just digitizes existing processes."
 
 ### The Opportunity (How you win)
-"We embed with your teams for 4-5 weeks. We conduct user research to understand your actual workflows. We rapidly prototype solutions with AI acceleration. And we validate everything with real data before you commit to anything. You get working prototypes and a clear roadmap—in 4-5 weeks instead of 6-12 months, for $25-100K instead of $500K-$5M."
+"We embed with your teams for 4-5 weeks. We understand what users are actually trying to accomplish—the underlying task—not just how they do it now. We reimagine how agentic solutions can complete those tasks in fundamentally different ways. We rapidly prototype these reshaped workflows with AI acceleration. And we validate everything with real data before you commit to anything. You get working prototypes and a clear roadmap—in 4-5 weeks instead of 6-12 months, for $25-100K instead of $500K-$5M. The key difference: Traditional UX digitizes processes. We reshape task completion."
 
 ### Why This Matters (The business)
 "This is a massive market opportunity. $500M-$1.5B globally. And we're perfectly positioned with a differentiated approach: fast, affordable, user-driven, AI-powered. Our unit economics are exceptional—LTV/CAC of 53:1, gross margins of 77-95%, and CAC payback in just 2-4 months."
@@ -465,11 +470,15 @@ Create compelling pitch materials (elevator pitches, pitch deck framework, and s
 
 ### "This Sounds Like Consulting - What's Different?"
 
-**Response:** "That's a fair question. Traditional consulting is strategy-focused and takes 6-12 months. We're implementation-focused. We embed with your users, conduct research, and deliver working prototypes and a clear implementation roadmap in 4-5 weeks. The goal isn't a report—it's validated, actionable prototypes you can immediately move forward with."
+**Response:** "That's a fair question. Traditional consulting is strategy-focused and takes 6-12 months. We're implementation-focused. We embed with your users, understand what they're actually trying to accomplish—the underlying task—then reimagine how agentic solutions can complete those tasks differently. We deliver working prototypes and a clear implementation roadmap in 4-5 weeks. The goal isn't a report—it's validated, actionable prototypes you can immediately move forward with."
 
 ### "How Do You Differ from Just Hiring an AI Implementation Firm?"
 
-**Response:** "Great question. They're great at building systems, but they typically start with tech. We start with understanding your workflows through user research. We prototype to validate assumptions before you build. Think of us as the bridge between understanding what should change and actually building it."
+**Response:** "Great question. They're great at building systems, but they typically start with tech. We start with understanding what users are actually trying to accomplish—the underlying task—not just how they do it now. Then we reimagine how agentic solutions can complete those tasks in fundamentally different ways. We prototype to validate these reshaped workflows before you build. Think of us as the bridge between understanding what should change and actually building it—but we reshape, not just digitize."
+
+### "How Are You Different from Traditional UX Firms?"
+
+**Response:** "Excellent question. Traditional UX firms digitize existing processes. They observe current workflows and create digital versions of them. We do something different: we understand what users are actually trying to accomplish—the underlying task—then reimagine how agentic solutions can enable completely different workflows. We don't digitize processes; we reshape how tasks are completed. That's the fundamental difference."
 
 ### "Can You Really Do This in 4-5 Weeks?"
 
