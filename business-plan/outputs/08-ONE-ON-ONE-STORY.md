@@ -35,11 +35,11 @@ Create compelling, conversational stories for one-on-one conversations at founde
 
 **The result? They know exactly what improvements will drive ROI through fundamental changes, not incremental. They have working prototypes. They have an implementation roadmap. All in 4-5 weeks instead of 6-12 months. All for $25-100K instead of $500K-$5M.**
 
-**Here's where I see this heading: In 5-10 years, this embedded prototyping model becomes the standard for enterprise workflow optimization. Companies won't commit to massive implementations without validating first. They'll use rapid, task-first prototyping to discover how agentic solutions can reshape workflows, then scale what's proven. AI accelerates the iteration, but understanding underlying tasks drives the direction.**
+**Here's where I see this heading: In 5-10 years, Operations Intelligence becomes the standard for enterprise operations. Companies won't commit to massive implementations without validating first. They'll use rapid, outcome-first prototyping to discover how agentic solutions can reshape operations, then scale what's proven. AI accelerates the iteration, but understanding outcomes drives the direction.**
 
-**What makes this different isn't just speed or cost—it's that I'm combining task understanding with agentic solution reimagining. Most AI firms start with tech. Most consulting firms start with strategy. Most UX firms digitize existing processes. I start with understanding what users are actually trying to accomplish, then reimagine how agentic solutions can complete those tasks differently. That intersection—task understanding plus agentic reimagining plus AI acceleration—is what changes outcomes fundamentally.**
+**What makes this different isn't just speed or cost—it's that I'm combining outcome understanding with agentic solution reimagining. Most AI firms start with tech. Most consulting firms start with strategy. Most traditional approaches digitize existing processes. I start with understanding the outcomes teams need, then reimagine how agentic solutions can accomplish them differently. That intersection—outcome understanding plus agentic reimagining plus AI acceleration—is what changes outcomes fundamentally.**
 
-**I'm starting with financial services, defense, construction, and e-commerce because I have credibility in each. But the model scales. The vision is that every enterprise workflow improvement starts with embedded validation, not assumptions."**
+**I'm starting with financial services, defense, construction, and e-commerce because I have credibility in each. But the model scales. The vision is that every enterprise operations improvement starts with embedded validation, not assumptions."**
 
 **Time:** 2-3 minutes  
 **Tone:** Conversational, authentic, forward-looking  
@@ -52,16 +52,16 @@ Create compelling, conversational stories for one-on-one conversations at founde
 ### Format A: 30-Second Hook (Opening Line)
 
 **Version 1 (Vision-Focused):**
-*"I'm building the future of enterprise workflow optimization—where companies validate improvements in weeks, not months, before committing millions."*
+*"I'm building Operations Intelligence—where companies validate operations improvements in weeks, not months, before committing millions."*
 
 **Version 2 (Differentiation-Focused):**
-*"I help enterprises discover workflow improvements by combining user research with AI acceleration—the intersection that actually changes outcomes."*
+*"I help enterprises discover operations improvements by understanding outcomes and prototyping with AI—the intersection that actually changes results."*
 
 **Version 3 (Problem-Focused):**
-*"Enterprises spend millions on workflow optimization that fails. I help them discover what actually works before committing—in 4-5 weeks instead of 6-12 months."*
+*"Enterprises spend millions on operations that fail. I help them discover what actually works before committing—in 4-5 weeks instead of 6-12 months."*
 
 **Version 4 (Personal-Focused):**
-*"After 20 years at Amazon and Fidelity solving customer problems, I'm building a new model for enterprise workflow validation—fast, affordable, user-driven."*
+*"After 20 years at Amazon and Fidelity solving customer problems, I'm building Operations Intelligence—fast, affordable, outcome-driven."*
 
 **How to Use:**
 - Pick one that feels natural to you
@@ -132,19 +132,19 @@ Create compelling, conversational stories for one-on-one conversations at founde
 
 **The 5-10 Year Vision:**
 
-"In 5-10 years, embedded workflow prototyping becomes the standard for enterprise optimization. Here's what that looks like:
+"In 5-10 years, Operations Intelligence becomes the standard for enterprise operations. Here's what that looks like:
 
-**Companies won't commit to massive implementations without validating first.** They'll use rapid, user-driven prototyping to discover what works, then scale what's proven. The days of 12-month consulting engagements that produce reports nobody uses? Those are ending.
+**Companies won't commit to massive implementations without validating first.** They'll use rapid, outcome-driven prototyping to discover what works, then scale what's proven. The days of 12-month consulting engagements that produce reports nobody uses? Those are ending.
 
-**AI accelerates iteration, but user research drives direction.** The future isn't AI-first or user-first—it's both. AI tools let us prototype and test faster than ever, but understanding what actually needs to change comes from embedded user research.
+**AI accelerates iteration, but outcome understanding drives direction.** The future isn't AI-first or process-first—it's both. AI tools let us prototype and test faster than ever, but understanding the outcomes teams need comes from embedded work.
 
 **Validation happens in weeks, not months.** Enterprises will expect to see working prototypes and validated improvements in 4-5 weeks, not 6-12 months. Speed becomes table stakes.
 
-**Embedded expertise becomes the norm.** Remote consulting from conference rooms? That's outdated. The future is embedded teams who understand actual workflows, not assumptions.
+**Embedded expertise becomes the norm.** Remote consulting from conference rooms? That's outdated. The future is embedded teams who understand actual operations, not assumptions.
 
-**Real data drives decisions, not vendor pitches.** Companies will demand prototypes grounded in real user behavior, not hypothetical designs or vendor assumptions.
+**Real data drives decisions, not vendor pitches.** Companies will demand prototypes grounded in real outcomes, not hypothetical designs or vendor assumptions.
 
-**My role in shaping that future:** I'm building the model that makes this standard. Every enterprise workflow improvement starts with embedded validation, not assumptions. That's the vision."
+**My role in shaping that future:** I'm building Operations Intelligence that makes this standard. Every enterprise operations improvement starts with embedded validation, not assumptions. That's the vision."
 
 **Tone:** Forward-looking, optimistic, but grounded  
 **Use When:** They ask about vision, long-term plans, market direction
@@ -161,8 +161,8 @@ Create compelling, conversational stories for one-on-one conversations at founde
 **The Embedded Story:**
 *"I've spent time on job sites in environmental consulting. I've been in defense research labs. I understand that being there matters. When I embed with teams, I'm not consulting from a distance—I'm understanding actual workflows, real constraints, how teams actually work. That's different from remote consulting, and it changes what I discover."*
 
-**The Task Understanding + Agentic Reimagining Story:**
-*"Most AI firms start with tech. Most design firms digitize existing processes. I do something different: I understand what users are actually trying to accomplish—the underlying task—then reimagine how agentic solutions can complete those tasks in fundamentally different ways. That intersection—task understanding plus agentic reimagining plus AI acceleration—is what makes this work. It's not just faster, it's fundamentally better. Traditional UX digitizes processes. I reshape task completion."*
+**The Outcome Understanding + Agentic Reimagining Story:**
+*"Most AI firms start with tech. Most traditional approaches digitize existing processes. I do something different: I understand the outcomes teams need, then reimagine how agentic solutions can accomplish them differently. That intersection—outcome understanding plus agentic reimagining plus AI acceleration—is what makes this work. It's not just faster, it's fundamentally better. Traditional approaches digitize processes. I reshape operations."*
 
 **The Real Data Story:**
 *"At Fidelity, everything is grounded in real user behavior. At Amazon, we tested everything. That's what I bring: prototypes grounded in actual workflows and user feedback, not hypothetical designs or vendor assumptions. Real data changes outcomes."*
@@ -186,26 +186,26 @@ Create compelling, conversational stories for one-on-one conversations at founde
 ### For Different Founder Types
 
 **Tech Founders:**
-*"I'm combining user research with AI acceleration—using AI tools to prototype and validate fast, but starting with understanding what actually needs to change. It's the intersection of design thinking and AI that changes outcomes."*
+*"I'm combining outcome understanding with AI acceleration—using AI tools to prototype and validate fast, but starting with understanding the outcomes teams need. It's the intersection of operations intelligence and AI that changes outcomes."*
 
 **B2B SaaS Founders:**
-*"You're probably seeing the same enterprise workflow challenges I am. Companies struggle to validate improvements before committing. I help them discover what works in 4-5 weeks instead of 6-12 months—similar to how you validate product features fast."*
+*"You're probably seeing the same enterprise operations challenges I am. Companies struggle to validate improvements before committing. I help them discover what works in 4-5 weeks instead of 6-12 months—similar to how you validate product features fast."*
 
 **Service Founders:**
-*"You understand embedded client work—that's my model. I embed with teams for 4-5 weeks, understand their workflows, then prototype solutions. It's like consulting, but focused on rapid validation and prototyping."*
+*"You understand embedded client work—that's my model. I embed with teams for 4-5 weeks, understand the outcomes they need, then prototype solutions. It's like consulting, but focused on rapid validation and prototyping."*
 
 **Early-Stage Founders:**
-*"You're validating fast—that's exactly what I help enterprises do. While they're used to 12-month consulting engagements, I bring startup speed: validate workflow improvements in 4-5 weeks, then scale what works."*
+*"You're validating fast—that's exactly what I help enterprises do. While they're used to 12-month consulting engagements, I bring startup speed: validate operations improvements in 4-5 weeks, then scale what works."*
 
 **Experienced Founders:**
-*"I see a massive market opportunity—$500M-$1.5B globally. Enterprises are desperate for faster, cheaper workflow optimization. The unit economics are strong—LTV/CAC of 53:1. I'm building a new category: rapid workflow discovery and validation."*
+*"I see a massive market opportunity—$500M-$1.5B globally. Enterprises are desperate for faster, cheaper operations improvement. The unit economics are strong—LTV/CAC of 53:1. I'm building Operations Intelligence: rapid operations discovery and validation."*
 
 ---
 
 ### For Different Contexts
 
 **Quick Intro at Mixer (30 seconds):**
-*"I'm building the future of enterprise workflow optimization—where companies validate improvements in weeks, not months. I embed with teams for 4-5 weeks, conduct user research, rapidly prototype with AI, and validate what works before they commit millions."*
+*"I'm building Operations Intelligence—where companies validate operations improvements in weeks, not months. I embed with teams for 4-5 weeks, understand the outcomes they need, prototype with AI, and validate what actually works before they commit millions."*
 
 **Coffee Chat (2-3 minutes):**
 Use the full core story (Part 1), then ask questions about their business, find connection points, exchange contact info.
@@ -225,8 +225,8 @@ Use the full core story (Part 1), then ask questions about their business, find 
 ### Storytelling Best Practices
 
 **Start with a Specific Moment (Not Abstract):**
-- ❌ "Enterprises have workflow problems."
-- ✅ "I kept seeing the same pattern: companies would spend months and millions on workflow improvements that didn't work."
+- ❌ "Enterprises have operations challenges."
+- ✅ "I kept seeing the same pattern: companies would spend months and millions on operations improvements that didn't work."
 
 **Use Concrete Examples:**
 - "At Amazon, I scaled Product Ads to $250M."
@@ -239,8 +239,8 @@ Use the full core story (Part 1), then ask questions about their business, find 
 - "The insight that changed everything was..."
 
 **End with Forward-Looking Vision:**
-- "In 5-10 years, this becomes the standard..."
-- "The vision is that every enterprise workflow improvement starts with validation..."
+- "In 5-10 years, Operations Intelligence becomes the standard..."
+- "The vision is that every enterprise operations improvement starts with validation..."
 - "That's where I see this heading..."
 
 **Leave Space for Questions:**
@@ -284,13 +284,13 @@ Use the full core story (Part 1), then ask questions about their business, find 
 ### Common Questions & Responses
 
 **"How did you come up with this?"**
-*"I kept seeing the same pattern: companies would spend months and millions on workflow improvements that didn't work. At Amazon, we validated everything with users first. At Fidelity, I see enterprises struggling with the same problem. The gap was clear: there's no good way to validate workflow improvements before committing. So I'm building that."*
+*"I kept seeing the same pattern: companies would spend months and millions on operations improvements that didn't work. At Amazon, we validated everything with users first. At Fidelity, I see enterprises struggling with the same problem. The gap was clear: there's no good way to validate operations improvements before committing. So I'm building Operations Intelligence."*
 
 **"What makes you different from [competitor]?"**
-*"Great question. They're great at [their strength], but here's the difference: I start with user research to understand what actually needs to change, then use AI to prototype and validate fast. Most AI firms start with tech. Most consultants start with strategy. I start with understanding workflows, then accelerate with AI. That intersection changes outcomes."*
+*"Great question. They're great at [their strength], but here's the difference: I start with understanding the outcomes teams need, then use AI to prototype and validate fast. Most AI firms start with tech. Most consultants start with strategy. I start with understanding outcomes, then accelerate with AI. That intersection changes outcomes."*
 
 **"Where do you see this in 5 years?"**
-*"I see embedded prototyping becoming the standard for enterprise workflow optimization. Companies won't commit to massive implementations without validating first. They'll use rapid, user-driven prototyping to discover what works, then scale what's proven. AI accelerates iteration, but user research drives direction. That's the future."*
+*"I see Operations Intelligence becoming the standard for enterprise operations. Companies won't commit to massive implementations without validating first. They'll use rapid, outcome-driven prototyping to discover what works, then scale what's proven. AI accelerates iteration, but outcome understanding drives direction. That's the future."*
 
 **"Who are your customers?"**
 *"I'm starting with financial services, defense, construction, and e-commerce—markets where I have credibility. Financial services because I'm at Fidelity. Defense because I've done DARPA work. Construction because I have environmental consulting background. E-commerce because I scaled Amazon Product Ads. But the model works across industries."*
@@ -311,7 +311,7 @@ Use the full core story (Part 1), then ask questions about their business, find 
 ### Your Go-To Story for Startup Events
 
 **Opening (30 seconds):**
-*"I'm building the future of enterprise workflow optimization—where companies validate improvements in weeks, not months, before committing millions."*
+*"I'm building Operations Intelligence—where companies validate operations improvements in weeks, not months, before committing millions."*
 
 **If They're Interested (2-3 minutes):**
 Use the full core story (Part 1), weaving in:

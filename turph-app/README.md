@@ -29,8 +29,44 @@ This is an internal tool for:
 - Managing business operations
 - Internal reporting and analytics
 - Business metrics and KPIs
+- Market intelligence and competitive analysis for the greater Boston region
 
 **NOT deployed to production or publicly accessible.**
+
+## Market Intelligence Agent
+
+### Overview
+This application includes a continual process agent for market awareness and competitive intelligence specific to the greater Boston region. The agent automatically monitors and aggregates market data from various sources.
+
+### Market Data Integration
+
+The market intelligence component requires the following MCP (Model Context Protocol) server implementation:
+
+**LinkedIn MCP Server** (felipfr/LinkedIn-MCP-Server)
+- **Language**: TypeScript
+- **Purpose**: Pull LinkedIn market intelligence, industry trends, and professional network data
+- **Implementation**: Self-hosted Node.js server
+- **Features**:
+  - Integrates with LinkedIn APIs where available
+  - Designed for Claude and other MCP-compatible assistants
+  - Enables programmatic access to market awareness data
+- **Repository**: [felipfr/LinkedIn-MCP-Server](https://github.com/felipfr/LinkedIn-MCP-Server)
+
+### Data Collection Strategy
+
+The agent performs:
+- Web scraping of configured URLs for market information
+- LinkedIn data aggregation via MCP server
+- Competitive positioning analysis
+- Regional market trend tracking
+- Automated data collection and synthesis
+
+### Setup Instructions
+
+1. Install and configure the LinkedIn MCP Server locally
+2. Update environment variables with LinkedIn API credentials
+3. Configure target URLs for web scraping in the market intelligence module
+4. Enable the market agent in the application configuration
 
 ## Structure
 

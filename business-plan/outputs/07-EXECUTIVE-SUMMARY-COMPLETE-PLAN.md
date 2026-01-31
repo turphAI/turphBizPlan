@@ -19,7 +19,7 @@ The executive summary is the most important document in your business plan. It's
 
 ---
 
-## EXECUTIVE SUMMARY: TURPH AI
+## EXECUTIVE SUMMARY: OPERATIONS INTELLIGENCE
 
 **Version 1.0 | January 2026**
 
@@ -27,34 +27,34 @@ The executive summary is the most important document in your business plan. It's
 
 ### THE OPPORTUNITY
 
-Enterprises invest millions annually in AI and workflow optimization initiatives, but most fail to deliver value quickly. Why? Because they start with technology instead of understanding what actually needs to change.
+Enterprises invest millions annually in AI and operations initiatives, but most fail to deliver value quickly. Why? Because they start with technology instead of understanding the outcomes they need.
 
-Traditional consulting takes 6-12 months and costs $500K-$5M. AI implementation firms jump straight to building without understanding workflows. Hiring internal teams takes 18-24 months and costs $1-3M annually. None of these options work for validation—the critical first step.
+Traditional consulting takes 6-12 months and costs $500K-$5M. AI implementation firms jump straight to building without understanding operations. Hiring internal teams takes 18-24 months and costs $1-3M annually. None of these options work for validation—the critical first step.
 
 **The market is desperate for a better way.**
 
-Turph AI solves this through embedded workflow prototyping: rapidly discovering, validating, and prototyping workflow improvements through user research and AI-accelerated iteration. We help enterprises know what works before committing to major implementation.
+Operations Intelligence solves this through embedded prototyping: rapidly discovering, validating, and prototyping operations improvements by understanding outcomes teams need and prototyping with AI-accelerated iteration. We help enterprises know what works before committing to major implementation.
 
 ---
 
 ### THE SOLUTION
 
-**Embedded Workflow Prototyping for Enterprise Optimization**
+**Operations Intelligence: Embedded Prototyping for Enterprise Operations**
 
-We embed directly with enterprise teams for 4-5 weeks to:
+We embed directly with teams for 4-5 weeks to:
 
-1. **Understand** what users are actually trying to accomplish—the underlying task—not just how they do it now
-2. **Reimagine** how agentic solutions can complete those tasks in fundamentally different ways
+1. **Understand** the outcomes they need, not just how they do things now
+2. **Reimagine** how agentic solutions can accomplish them differently
 3. **Prototype** agentic solutions rapidly using AI tools for acceleration
-4. **Validate** with real data and user testing before implementation
+4. **Validate** what actually works with real data before implementation
 5. **Deliver** working prototypes and clear implementation roadmap
 
 **The Critical Difference:**
-Traditional UX digitizes existing processes. We reshape how tasks are completed. We don't take existing workflows and make them digital—we understand the underlying task, then reimagine how agentic solutions can enable completely different workflows.
+Traditional approaches digitize existing processes. We reshape operations. We don't take existing processes and make them digital—we understand the outcomes teams need, then reimagine how agentic solutions can accomplish them differently.
 
 **The Result:**
 - Working prototypes that prove ROI through fundamental improvements, not incremental
-- Clear understanding of what will deliver value through reshaped workflows
+- Clear understanding of what will deliver value through reshaped operations
 - Implementation roadmap teams can execute
 - All in 4-5 weeks instead of 6-12 months
 - At $25-100K instead of $500K-$5M
@@ -63,7 +63,7 @@ Traditional UX digitizes existing processes. We reshape how tasks are completed.
 
 ### MARKET OPPORTUNITY
 
-**TAM (Global):** $500M-$1.5B embedded workflow prototyping market
+**TAM (Global):** $500M-$1.5B Operations Intelligence market
 
 **SAM (Target Markets):** $400M-$800M across:
 - Financial Services: $1-3M budget, enterprise focus
@@ -91,10 +91,10 @@ Traditional UX digitizes existing processes. We reshape how tasks are completed.
 
 1. **Speed:** 4-5 weeks vs. 6-12 months (3-26x faster)
 2. **Cost:** $25-100K vs. $500K-$5M (5-50x cheaper)
-3. **User Research + AI:** Unique intersection (vs. tech-first or design-only)
+3. **Outcome Understanding + AI:** Unique intersection (vs. tech-first or process-only)
 4. **Business Outcomes:** Focused on ROI, not technical achievement
 5. **Domain Expertise:** Credible across target markets
-   - Financial: Director UX at Fidelity (current)
+   - Financial: Director at Fidelity (current)
    - E-commerce: Scaled Amazon Product Ads to $250M
    - Construction: Environmental consulting background
    - Defense: DARPA/CRA research experience
@@ -104,7 +104,7 @@ Traditional UX digitizes existing processes. We reshape how tasks are completed.
 - vs. Consulting Firms: Faster, cheaper, prototyping-focused
 - vs. AI/ML Firms: User-research driven, business outcomes focused
 - vs. In-house Teams: Validation before hiring, immediate expertise
-- vs. Platforms: Customized to workflows, embedded expertise
+- vs. Platforms: Customized to operations, embedded expertise
 
 ---
 
@@ -154,7 +154,7 @@ All scenarios (conservative, base, optimistic) hit goal in Year 1, with conserva
 
 20 years of experience solving customer-facing problems and shipping successful digital products:
 
-- **Director of UX Design, Fidelity Investments** (Current)
+- **Director at Fidelity Investments** (Current)
   - Leading design strategy for financial systems
   - Deep expertise in regulated enterprise environments
   - Current knowledge of enterprise AI deployment challenges
@@ -218,7 +218,7 @@ Tom brings the exact combination needed for this business:
 
 ### WHY NOW
 
-This is the perfect moment to launch Turph AI:
+This is the perfect moment to launch Operations Intelligence:
 
 1. **Enterprise AI Adoption Accelerating**
    - 70% of enterprises investing in AI/ML
@@ -304,11 +304,11 @@ Ready to launch immediately. No external capital required. Path to $87K+ persona
 
 ### CONCLUSION
 
-**Turph AI addresses a massive, urgent market need with a differentiated approach:**
+**Operations Intelligence addresses a massive, urgent market need with a differentiated approach:**
 
 - **Large Market:** $500M-$1.5B addressable opportunity
-- **Real Pain:** Enterprises desperate for faster, cheaper workflow optimization
-- **Defensible Positioning:** Unique combination of speed, cost, and user-research expertise
+- **Real Pain:** Enterprises desperate for faster, cheaper operations improvement
+- **Defensible Positioning:** Unique combination of speed, cost, and outcome-understanding expertise
 - **Proven Team:** 20 years of successful product scaling and deployment
 - **Strong Economics:** Profitable from month 1, LTV/CAC of 53:1
 - **Clear Path:** Network-based GTM with immediate traction potential
@@ -326,8 +326,8 @@ Ready to launch immediately. No external capital required. Path to $87K+ persona
 Once you have the Executive Summary, your complete business plan includes:
 
 1. **Cover Page**
-   - Title: "Turph AI: Forward-Deployed Workflow Prototyping"
-   - Subtitle: "Discover workflow improvements 10x faster"
+   - Title: "Operations Intelligence: Embedded Prototyping"
+   - Subtitle: "Discover operations improvements 10x faster"
    - Date: January 2026
    - Confidential/For Review Only
 
@@ -548,7 +548,7 @@ All this content has been committed to your GitHub repo in the `phase-3-financia
 
 ## CONCLUSION
 
-You now have a **comprehensive, investor-ready business plan** for Turph AI that:
+You now have a **comprehensive, investor-ready business plan** for Operations Intelligence that:
 
 ✅ Is grounded in market research and competitive analysis
 ✅ Shows clear path to profitability ($87K+ Year 1)

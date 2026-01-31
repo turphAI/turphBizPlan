@@ -15,11 +15,11 @@
 Known data points:
 - Gartner estimates: AI services market ~$25-30B in 2024
 - Growing at CAGR 30-40% through 2030
-- Forward-deployed AI represents emerging segment (15-30% of market, growing)
+- Operations Intelligence represents emerging segment (15-30% of market, growing)
 
 **Your TAM Calculation:**
 - Global AI services: $25-30B
-- Forward-deployed AI portion: 20-30% (increasing)
+- Operations Intelligence portion: 20-30% (increasing)
 - **Estimated TAM: $5-9B globally**
 
 ### Step 2: Define SAM (Serviceable Addressable Market)
@@ -27,19 +27,19 @@ Known data points:
 Breaking down by target market:
 
 **Financial Services:**
-- TAM percentage: 30-35% of forward-deployed AI market
+- TAM percentage: 30-35% of Operations Intelligence market
 - Includes: Banks, insurance, wealth management, trading firms, fintech
 
 **Defense/Aerospace:**
-- TAM percentage: 20-25% of forward-deployed AI market
+- TAM percentage: 20-25% of Operations Intelligence market
 - Includes: Defense contractors, aerospace, government agencies
 
 **Construction/Environmental:**
-- TAM percentage: 15-20% of forward-deployed AI market
+- TAM percentage: 15-20% of Operations Intelligence market
 - Includes: Construction firms, environmental consulting, engineering
 
 **E-commerce/Marketplaces:**
-- TAM percentage: 15-20% of forward-deployed AI market
+- TAM percentage: 15-20% of Operations Intelligence market
 - Includes: Retail, marketplaces, logistics, operations
 
 **Total SAM** = TAM × (35% + 25% + 20% + 20%) = TAM × 100%
@@ -125,7 +125,7 @@ Breaking down by target market:
 - **Goals:** Operational efficiency, cost reduction, client experience
 - **Pain Points:**
   - High operational costs
-  - Manual workflows
+  - Manual operations
   - Internal AI team expensive/slow
 - **Decision Process:**
   - 4-6 month sales cycle
@@ -139,7 +139,7 @@ Breaking down by target market:
 - **Company:** Major defense contractor ($5B+ revenue)
 - **Goals:** Project efficiency, R&D optimization, team coordination
 - **Pain Points:**
-  - Complex project workflows
+  - Complex project operations
   - Distributed team coordination
   - Compliance and security requirements
   - High cost of delays
@@ -212,9 +212,9 @@ We'll now research and validate:
 
 **Questions to guide research:**
 
-1. Financial Services: Who's your strongest contact? What's their biggest workflow challenge?
+1. Financial Services: Who's your strongest contact? What's their biggest operations challenge?
 2. Defense: Through CRA, are there specific problem areas you know about?
-3. Construction: From your environmental consulting days, what were the biggest workflow pain points?
+3. Construction: From your environmental consulting days, what were the biggest operations pain points?
 4. E-commerce: What were the key operational challenges you saw at Amazon?
 
 ---

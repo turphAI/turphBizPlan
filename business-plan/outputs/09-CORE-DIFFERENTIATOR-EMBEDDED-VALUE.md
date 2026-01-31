@@ -16,7 +16,7 @@
 ### Our Embedded Approach (What We Do)
 **Process:** Understand the underlying TASK → Reimagine how it can be completed differently → Prototype agentic solutions
 
-**Value:** Identifies what users are actually trying to accomplish (the task), then reimagines how agentic/AI solutions can complete that task in fundamentally different—and better—ways.
+**Value:** Identifies the outcomes teams need, then reimagines how agentic/AI solutions can accomplish them in fundamentally different—and better—ways.
 
 **Example:** A financial advisor needs to document client information → We understand the task (capturing accurate client data for compliance and service) → We reimagine: What if an AI agent could extract information from conversations, auto-populate forms, and flag inconsistencies? → The process becomes completely different, not just digitized.
 
@@ -92,14 +92,14 @@
 - ❌ Assuming current workflows are optimal
 
 **What We ARE Doing:**
-- ✅ Understanding what users are actually trying to accomplish (the task)
+- ✅ Understanding the outcomes teams need
 - ✅ Identifying constraints, pain points, and opportunities
-- ✅ Asking "What if this task could be completed completely differently?"
-- ✅ Exploring how agentic solutions could reshape workflows
+- ✅ Asking "What if these outcomes could be accomplished completely differently?"
+- ✅ Exploring how agentic solutions could reshape operations
 
 **Example:**
 - **Traditional:** "How can we digitize this manual process?"
-- **Our Approach:** "What is the underlying task? How can agentic solutions enable a fundamentally different approach?"
+- **Our Approach:** "What outcomes do teams need? How can agentic solutions enable a fundamentally different approach?"
 
 ---
 
@@ -144,9 +144,9 @@
 - Result: Better digital version of existing workflow
 
 **Our Approach:**
-- Embedded research → Understand underlying tasks
-- Agentic prototyping → Reimagine task completion
-- Result: Fundamentally different workflow enabled by agentic solutions
+- Embedded research → Understand outcomes teams need
+- Agentic prototyping → Reimagine how outcomes are accomplished
+- Result: Fundamentally different operations enabled by agentic solutions
 
 **The Difference:**
 - They digitize processes
@@ -162,9 +162,9 @@
 - Result: Automated version of existing workflow
 
 **Our Approach:**
-- Task-first → "What are users trying to accomplish?"
+- Outcome-first → "What outcomes do teams need?"
 - Reimagine with agentic solutions
-- Result: New workflows enabled by agentic capabilities
+- Result: New operations enabled by agentic capabilities
 
 **The Difference:**
 - They automate existing processes
@@ -180,9 +180,9 @@
 - Result: Optimized version of existing workflow
 
 **Our Approach:**
-- Embedded discovery → Task understanding
+- Embedded discovery → Outcome understanding
 - Agentic prototyping → Fundamental rethink
-- Result: Completely different workflow enabled by agentic solutions
+- Result: Completely different operations enabled by agentic solutions
 
 **The Difference:**
 - They optimize existing processes
@@ -194,27 +194,27 @@
 
 ### The Elevator Pitch Version
 
-**"I don't digitize existing processes—I understand what users are actually trying to accomplish, then reimagine how agentic solutions can complete those tasks in fundamentally different ways. Traditional UX digitizes workflows. I reshape them."**
+**"I don't digitize existing processes—I understand the outcomes teams need, then reimagine how agentic solutions can accomplish them differently. Traditional approaches digitize processes. I reshape operations."**
 
 ---
 
 ### The Full Explanation
 
-**"Most workflow optimization takes existing processes and digitizes them. That's incremental improvement. What I do is different: I embed with teams to understand what they're actually trying to accomplish—the underlying task—then I reimagine how agentic solutions can enable completely different ways of completing those tasks.**
+**"Most operations improvement takes existing processes and digitizes them. That's incremental improvement. What I do is different: I embed with teams to understand the outcomes they need, then I reimagine how agentic solutions can accomplish them differently.**
 
-**For example, instead of digitizing manual form-filling, I might discover that the real task is capturing accurate client information. Then I prototype an agentic solution where AI extracts information from conversations, auto-populates documentation, and flags inconsistencies—freeing humans for relationship building. That's not digitization, that's reimagining.**
+**For example, instead of digitizing manual form-filling, I might discover that the real outcome needed is capturing accurate client information. Then I prototype an agentic solution where AI extracts information from conversations, auto-populates documentation, and flags inconsistencies—freeing humans for relationship building. That's not digitization, that's reimagining.**
 
-**The embedded approach is critical because you can't reimagine workflows from a distance. You need to understand the actual tasks, constraints, and opportunities. Then agentic solutions enable fundamentally different approaches—not just faster versions of existing processes."**
+**The embedded approach is critical because you can't reimagine operations from a distance. You need to understand the actual outcomes teams need, constraints, and opportunities. Then agentic solutions enable fundamentally different approaches—not just faster versions of existing processes."**
 
 ---
 
 ### The Value Proposition
 
-**"Traditional UX digitizes existing processes. We reshape how tasks are completed.**
+**"Traditional approaches digitize existing processes. We reshape operations.**
 
-**We embed with your teams to understand what you're actually trying to accomplish—the underlying task—not just how you do it now. Then we reimagine how agentic solutions can enable completely different workflows.**
+**We embed with your teams to understand the outcomes they need, not just how they do things now. Then we reimagine how agentic solutions can accomplish them differently.**
 
-**The result? Fundamental improvements, not incremental. Workflows that are better, not just digitized."**
+**The result? Fundamental improvements, not incremental. Operations that are better, not just digitized."**
 
 ---
 
@@ -270,7 +270,7 @@
 "We embed with teams to understand workflows and prototype solutions."
 
 **Updated:**
-"We embed with teams to understand what users are actually trying to accomplish—the underlying task—then reimagine how agentic solutions can complete those tasks in fundamentally different ways. We don't digitize existing processes; we reshape how tasks are completed."
+"We embed with teams to understand the outcomes they need, then reimagine how agentic solutions can accomplish them differently. We don't digitize existing processes; we reshape operations."
 
 ---
 
@@ -280,7 +280,7 @@
 "vs. UX Firms: We combine design research with AI acceleration"
 
 **Updated:**
-"vs. UX Firms: They digitize existing processes. We understand underlying tasks and reimagine how agentic solutions can reshape workflows. Traditional UX optimizes processes; we rethink task completion."
+"vs. Traditional Approaches: They digitize existing processes. We understand outcomes teams need and reimagine how agentic solutions can reshape operations. Traditional approaches optimize processes; we rethink how outcomes are accomplished."
 
 ---
 
@@ -290,22 +290,22 @@
 "We conduct user research and prototype solutions."
 
 **Updated:**
-"We embed with teams to understand what they're actually trying to accomplish—the underlying task—then reimagine how agentic solutions can enable completely different workflows. We don't digitize processes; we reshape them."
+"We embed with teams to understand the outcomes they need, then reimagine how agentic solutions can accomplish them differently. We don't digitize processes; we reshape operations."
 
 ---
 
 ## Summary: The Core Message
 
-**Traditional UX:** Digitizes existing processes → Incremental improvement
+**Traditional Approaches:** Digitize existing processes → Incremental improvement
 
-**Our Approach:** Understands underlying tasks → Reimagines with agentic solutions → Fundamental improvement
+**Our Approach:** Understands outcomes teams need → Reimagines with agentic solutions → Fundamental improvement
 
-**The Value:** We don't just make existing workflows digital. We reshape how tasks are completed, enabled by agentic solutions.
+**The Value:** We don't just make existing processes digital. We reshape operations, enabled by agentic solutions.
 
-**Why Embedded Matters:** You can't reimagine workflows from a distance. You need to understand actual tasks, constraints, and opportunities—which requires being embedded.
+**Why Embedded Matters:** You can't reimagine operations from a distance. You need to understand actual outcomes teams need, constraints, and opportunities—which requires being embedded.
 
-**The Result:** Fundamental improvements, not incremental. Workflows that are better, not just digitized.
+**The Result:** Fundamental improvements, not incremental. Operations that are better, not just digitized.
 
 ---
 
-**This is a huge differentiator and value add. It's what makes us different from traditional UX, AI firms, and consulting.**
+**This is a huge differentiator and value add. It's what makes Operations Intelligence different from traditional approaches, AI firms, and consulting.**

@@ -2,7 +2,7 @@
 
 ## Strategic Goal
 
-Define your unique position in the embedded workflow prototyping market and articulate why enterprises choose **Turph AI** over alternatives.
+Define your unique position in the Operations Intelligence market and articulate why enterprises choose **Operations Intelligence** over alternatives.
 
 ---
 
@@ -63,33 +63,33 @@ Define your unique position in the embedded workflow prototyping market and arti
 - Cost lower than traditional consulting
 
 **Weaknesses:**
-- Tech-first (not user/business-first)
-- Limited workflow optimization expertise
+- Tech-first (not outcome/business-first)
+- Limited operations expertise
 - Limited business consulting capability
 - Domain knowledge variable
-- May not understand workflow/operational context
+- May not understand operational context
 - Not specialized in discovery phase (jump to tech)
 
 **Pricing Model:** $20-40K per week (or $80-160K per month)
 
 **Why Enterprises Choose Them:** Technical capability, speed, modern approach
 
-**Why They DON'T Choose Them for Your Work:** Tech-first, limited user research, not business-outcome focused
+**Why They DON'T Choose Them for Your Work:** Tech-first, limited outcome understanding, not business-outcome focused
 
-**Your Advantage:** User-research driven, business outcomes focused, design thinking + AI
+**Your Advantage:** Outcome-driven, business outcomes focused, operations intelligence + AI
 
 ---
 
-#### SEGMENT C: Design & UX Consulting Firms
+#### SEGMENT C: Design & Traditional Consulting Firms
 
 **Key Players:** Frog Design, IDEO, Pentagram, Adaptive Path, others
 
 **Their Approach:**
-- Model: Design research + UX/interaction design
+- Model: Design research + traditional design
 - Typical structure: Design researchers + interaction designers + strategists
 - Methodology: Design thinking, user research, rapid prototyping
 - Outcome: Design system + prototype + recommendations
-- **Core Limitation:** They digitize existing processes. They observe current workflows and create digital versions of them.
+- **Core Limitation:** They digitize existing processes. They observe current operations and create digital versions of them.
 
 **Strengths:**
 - Deep user research expertise
@@ -99,25 +99,25 @@ Define your unique position in the embedded workflow prototyping market and arti
 - Good communication/storytelling
 
 **Weaknesses:**
-- **Digitize existing processes rather than reimagining task completion**
+- **Digitize existing processes rather than reimagining how outcomes are accomplished**
 - Limited AI/agentic solution expertise
 - Smaller team capacity
 - Less business-focused (design-focused)
-- Limited workflow optimization expertise
+- Limited operations expertise
 - Higher cost than some alternatives
 - May lack technical implementation capability
-- Tend to optimize existing workflows rather than reshape them
+- Tend to optimize existing processes rather than reshape operations
 
 **Pricing Model:** $8-15K per day (or $120-300K per month)
 
 **Why Enterprises Choose Them:** User research excellence, design thinking, beautiful prototypes
 
-**Why They DON'T Choose Them for Your Work:** Limited AI knowledge, digitize rather than reimagine, not workflow optimization focused, smaller scale
+**Why They DON'T Choose Them for Your Work:** Limited AI knowledge, digitize rather than reimagine, not operations focused, smaller scale
 
 **Your Advantage:** 
-- **They digitize existing processes. You understand underlying tasks and reimagine how agentic solutions can reshape workflows.**
-- Design thinking + AI acceleration + agentic solution expertise = faster + cheaper + fundamentally better outcomes
-- Traditional UX optimizes processes. You rethink task completion.
+- **They digitize existing processes. You understand outcomes teams need and reimagine how agentic solutions can reshape operations.**
+- Operations intelligence + AI acceleration + agentic solution expertise = faster + cheaper + fundamentally better outcomes
+- Traditional approaches optimize processes. You rethink how outcomes are accomplished.
 
 ---
 
@@ -126,7 +126,7 @@ Define your unique position in the embedded workflow prototyping market and arti
 **Their Approach:**
 - Build internal AI prototyping capability
 - Hire AI engineers, data scientists, product managers
-- Develop internal workflows and tools
+- Develop internal operations and tools
 - Long-term ownership of solutions
 
 **Strengths:**
@@ -169,18 +169,18 @@ Define your unique position in the embedded workflow prototyping market and arti
 - Ongoing support and updates
 
 **Weaknesses:**
-- Generic solutions (not customized to specific workflows)
+- Generic solutions (not customized to specific operations)
 - Requires customer's own expertise
 - No embedded team/expertise
 - Long ramp-up learning curve
 - High failure rate without expertise
-- Not suited for complex workflow discovery
+- Not suited for complex operations discovery
 
 **Why Enterprises Consider Them:** Low cost, self-service, speed
 
 **Why They DON'T Choose This for Complex Problems:** Need embedded expertise, discovery phase missing
 
-**Your Advantage:** Customized to their actual workflows, embedded expertise, discovery-driven
+**Your Advantage:** Customized to their actual operations, embedded expertise, discovery-driven
 
 ---
 
@@ -284,9 +284,9 @@ FOCUS
 
 ### Core Differentiators
 
-#### 1. **User-Centered Design Research** ✓ UNIQUE
-- **What:** Embedded user interviews, workflow mapping, pain point identification
-- **Why It Matters:** Most alternatives start with tech, you start with understanding
+#### 1. **Outcome-Centered Research** ✓ UNIQUE
+- **What:** Embedded work with teams, outcome understanding, pain point identification
+- **Why It Matters:** Most alternatives start with tech, you start with understanding outcomes
 - **Evidence:** 20 years product experience solving customer-facing problems
 - **Result:** Solutions actually adopted (vs. solutions customers don't use)
 
@@ -312,7 +312,7 @@ FOCUS
 - **What:** Deep domain knowledge in each market (via background)
 - **Why It Matters:** You understand the operational constraints
 - **Evidence:** 
-  - Financial: Director UX at Fidelity
+  - Financial: Director at Fidelity
   - E-commerce: Scaled Amazon Product Ads to $250M
   - Construction: Environmental consulting on-site experience
   - Defense: DARPA/CRA research background
@@ -360,7 +360,7 @@ FOCUS
 **Why They're Hesitating:** Busy, no urgency, budget constraints
 
 **Your Counter:**
-- "Your competitors aren't waiting. Who validates workflows faster gets to market advantage first."
+- "Your competitors aren't waiting. Who validates operations faster gets to market advantage first."
 - Competitive angle: "ForwardDeployed AI prototyping is becoming table stakes — get ahead now"
 - ROI angle: "4-5 weeks to know if optimization will deliver X% improvement"
 
@@ -370,25 +370,25 @@ FOCUS
 
 ### Primary (For All Markets)
 
-**"We help enterprises discover what works in their workflows — fast, with real data, using embedded prototyping and AI acceleration. 4-5 weeks instead of 6-12 months. $25-100K instead of $500K-$5M. Proven by 20 years of shipping products that people actually use."**
+**"Operations Intelligence helps enterprises discover what works in their operations — fast, with real data, using embedded prototyping and AI acceleration. 4-5 weeks instead of 6-12 months. $25-100K instead of $500K-$5M. Proven by 20 years of shipping products that people actually use."**
 
 ### By Market
 
 #### Financial Services
 
-**"We help financial services firms validate workflow improvements before major implementation — embedded prototyping that proves ROI and manages regulatory risk. Get from idea to validated prototype in 4-5 weeks, not 6-12 months."**
+**"Operations Intelligence helps financial services firms validate operations improvements before major implementation — embedded prototyping that proves ROI and manages regulatory risk. Get from idea to validated prototype in 4-5 weeks, not 6-12 months."**
 
 #### Defense/Aerospace
 
-**"We embed with your teams to discover and validate project workflow improvements using real operational data and rapid prototyping. Security and compliance built in from day one. Faster validation, lower risk, proven methodology."**
+**"Operations Intelligence embeds with your teams to discover and validate project operations improvements using real operational data and rapid prototyping. Security and compliance built in from day one. Faster validation, lower risk, proven methodology."**
 
 #### Construction/Environmental
 
-**"We spend 4-5 weeks on your job sites understanding actual workflows, then rapidly prototype improvements grounded in real data. Proven results, lower risk than internal pilots, faster than traditional consulting."**
+**"Operations Intelligence spends 4-5 weeks on your job sites understanding the outcomes teams need, then rapidly prototypes improvements grounded in real data. Proven results, lower risk than internal pilots, faster than traditional consulting."**
 
 #### E-commerce/Marketplaces
 
-**"We discover what actually converts in your customer workflows by embedding with your teams, testing prototypes rapidly with real data, and delivering actionable improvements you can implement immediately."**
+**"Operations Intelligence discovers what actually converts in your customer operations by embedding with your teams, testing prototypes rapidly with real data, and delivering actionable improvements you can implement immediately."**
 
 ---
 
@@ -419,7 +419,7 @@ FOCUS
 - **Why:** Everything tied to measurable business improvement
 
 ### Advantage 5: Domain Expertise (Credible)
-- **Financial:** Director of UX Design at Fidelity (current)
+  - **Financial:** Director at Fidelity (current)
 - **E-commerce:** Scaled Amazon Product Ads to $250M
 - **Construction:** Environmental consulting on-site experience
 - **Defense:** DARPA/CRA research background
@@ -484,9 +484,9 @@ FOCUS
 - **NOT** design consulting (no AI, too small-scale)
 - **NOT** in-house development (too expensive, too slow)
 
-**You are:** **Rapid workflow discovery and validation through embedded prototyping**
+**You are:** **Operations Intelligence — rapid operations discovery and validation through embedded prototyping**
 
-**The gap you fill:** Enterprises want to validate workflow improvements BEFORE committing to major consulting engagement, internal hiring, or system implementation. You fill that gap.
+**The gap you fill:** Enterprises want to validate operations improvements BEFORE committing to major consulting engagement, internal hiring, or system implementation. Operations Intelligence fills that gap.
 
 ---
 
@@ -494,15 +494,15 @@ FOCUS
 
 ### Opening Conversation Starter
 
-**"I help enterprises discover workflow improvements by embedding with their teams for 4-5 weeks. We do user research, rapid prototyping with AI acceleration, and real validation — so you know what works before you commit to major implementation. 4-5 weeks instead of 6-12 months. 1/10th the cost."**
+**"Operations Intelligence helps enterprises discover operations improvements by embedding with their teams for 4-5 weeks. We understand the outcomes they need, prototype with AI acceleration, and validate what actually works — so you know what works before you commit to major implementation. 4-5 weeks instead of 6-12 months. 1/10th the cost."**
 
 ### When Asked "How Are You Different?"
 
-**"Most consulting is strategy-focused and takes 6-12 months. Most AI implementations jump straight to building. I start with understanding actual workflows through user research, then rapidly prototype and validate what works — grounded in real data, not assumptions. You get working prototypes and a proven implementation roadmap in 4-5 weeks."**
+**"Most consulting is strategy-focused and takes 6-12 months. Most AI implementations jump straight to building. Operations Intelligence starts with understanding the outcomes teams need, then rapidly prototypes and validates what works — grounded in real data, not assumptions. You get working prototypes and a proven implementation roadmap in 4-5 weeks."**
 
 ### When Asked About Price
 
-**"We're not trying to compete with McKinsey or do what in-house teams do. We're solving a specific problem: validating workflow improvements before major investment. That's a different service model — faster, cheaper, lower risk. $25-100K for 4-5 weeks of embedded prototyping vs. $500K-$5M for consulting or $1-3M/year for internal teams."**
+**"Operations Intelligence isn't trying to compete with McKinsey or do what in-house teams do. We're solving a specific problem: validating operations improvements before major investment. That's a different service model — faster, cheaper, lower risk. $25-100K for 4-5 weeks of embedded prototyping vs. $500K-$5M for consulting or $1-3M/year for internal teams."**
 
 ### When Asked About Capability
 
@@ -522,7 +522,7 @@ FOCUS
 1. DARPA/CRA credibility
 2. Security/compliance by design
 3. Speed (4-5 weeks vs. 6-12 months)
-4. Embedded understanding of project workflows
+4. Embedded understanding of project operations
 
 ### Construction/Environmental (Top Advantages)
 1. On-site credibility (environmental consulting background)
