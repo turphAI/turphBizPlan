@@ -32,9 +32,9 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // Call Anthropic API with tool use
+    // Call Anthropic API with tool use  
     let response = await anthropic.messages.create({
-      model: 'claude-3-5-sonnet-20241022',
+      model: 'claude-3-haiku-20240307',
       max_tokens: 4096,
       system: SYSTEM_PROMPT,
       messages,
@@ -72,7 +72,7 @@ export async function POST(request: NextRequest) {
       ]
 
       response = await anthropic.messages.create({
-        model: 'claude-3-5-sonnet-20241022',
+        model: 'claude-3-haiku-20240307',
         max_tokens: 4096,
         system: SYSTEM_PROMPT,
         messages: newMessages,
