@@ -9,7 +9,7 @@ export async function GET(
   try {
     const { id } = await params
 
-    const interaction = await prisma.interaction.findUnique({
+    const interaction = await prisma.networkingInteraction.findUnique({
       where: { id },
       include: {
         person: true,
@@ -42,7 +42,7 @@ export async function PATCH(
     const { id } = await params
     const body = await request.json()
 
-    const interaction = await prisma.interaction.update({
+    const interaction = await prisma.networkingInteraction.update({
       where: { id },
       data: {
         interactionType: body.interactionType,
@@ -72,7 +72,7 @@ export async function DELETE(
   try {
     const { id } = await params
 
-    await prisma.interaction.delete({
+    await prisma.networkingInteraction.delete({
       where: { id },
     })
 

@@ -10,7 +10,7 @@ export async function GET(request: NextRequest) {
 
     const where = personId ? { personId } : undefined
 
-    const interactions = await prisma.interaction.findMany({
+    const interactions = await prisma.networkingInteraction.findMany({
       where,
       include: {
         person: includePerson,
@@ -33,7 +33,7 @@ export async function POST(request: NextRequest) {
   try {
     const body = await request.json()
 
-    const interaction = await prisma.interaction.create({
+    const interaction = await prisma.networkingInteraction.create({
       data: {
         personId: body.personId,
         interactionType: body.interactionType,

@@ -32,7 +32,7 @@ export type EventSource = Prisma.EventSourceGetPayload<{}>
 
 export type EventPerson = Prisma.EventPersonGetPayload<{}>
 
-export type Interaction = Prisma.InteractionGetPayload<{}>
-export type InteractionWithPerson = Prisma.InteractionGetPayload<{
+export type NetworkingInteraction = Prisma.NetworkingInteractionGetPayload<{}>
+export type NetworkingInteractionWithPerson = Prisma.NetworkingInteractionGetPayload<{
   include: { person: true }
 }>
