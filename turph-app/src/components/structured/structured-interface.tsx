@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Separator } from "@/components/ui/separator";
 import { 
   Users, 
   Calendar, 
@@ -12,6 +11,11 @@ import {
   MessageSquare
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { DashboardView } from "./views/dashboard-view";
+import { PeopleView } from "./views/people-view";
+import { EventsView } from "./views/events-view";
+import { CompaniesView } from "./views/companies-view";
+import { InteractionsView } from "./views/interactions-view";
 
 type View = "dashboard" | "people" | "events" | "companies" | "interactions";
 
@@ -51,84 +55,12 @@ export function StructuredInterface() {
 
       {/* View Content */}
       <ScrollArea className="flex-1">
-        <div className="p-4">
-          {activeView === "dashboard" && <DashboardView />}
-          {activeView === "people" && <PeopleView />}
-          {activeView === "events" && <EventsView />}
-          {activeView === "companies" && <CompaniesView />}
-          {activeView === "interactions" && <InteractionsView />}
-        </div>
+        {activeView === "dashboard" && <DashboardView />}
+        {activeView === "people" && <PeopleView />}
+        {activeView === "events" && <EventsView />}
+        {activeView === "companies" && <CompaniesView />}
+        {activeView === "interactions" && <InteractionsView />}
       </ScrollArea>
-    </div>
-  );
-}
-
-function DashboardView() {
-  return (
-    <div className="space-y-4">
-      <h2 className="text-lg font-semibold">Dashboard</h2>
-      <div className="grid gap-4">
-        <div className="p-4 border rounded-lg">
-          <div className="text-sm text-muted-foreground">Quick Stats</div>
-          <div className="mt-2 text-2xl font-bold">Coming soon...</div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function PeopleView() {
-  return (
-    <div className="space-y-4">
-      <div className="flex items-center justify-between">
-        <h2 className="text-lg font-semibold">People</h2>
-        <Button size="sm">Add Person</Button>
-      </div>
-      <div className="text-sm text-muted-foreground">
-        No people added yet. Start building your network!
-      </div>
-    </div>
-  );
-}
-
-function EventsView() {
-  return (
-    <div className="space-y-4">
-      <div className="flex items-center justify-between">
-        <h2 className="text-lg font-semibold">Events</h2>
-        <Button size="sm">Add Event</Button>
-      </div>
-      <div className="text-sm text-muted-foreground">
-        No events tracked yet. Add upcoming networking events!
-      </div>
-    </div>
-  );
-}
-
-function CompaniesView() {
-  return (
-    <div className="space-y-4">
-      <div className="flex items-center justify-between">
-        <h2 className="text-lg font-semibold">Companies</h2>
-        <Button size="sm">Add Company</Button>
-      </div>
-      <div className="text-sm text-muted-foreground">
-        No companies added yet. Track companies in your network!
-      </div>
-    </div>
-  );
-}
-
-function InteractionsView() {
-  return (
-    <div className="space-y-4">
-      <div className="flex items-center justify-between">
-        <h2 className="text-lg font-semibold">Interactions</h2>
-        <Button size="sm">Log Interaction</Button>
-      </div>
-      <div className="text-sm text-muted-foreground">
-        No interactions logged yet. Track your conversations and follow-ups!
-      </div>
     </div>
   );
 }
