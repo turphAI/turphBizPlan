@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.72.1",
     "@hookform/resolvers": "^5.2.2",
     "@planetscale/database": "^1.19.0",
     "@prisma/adapter-planetscale": "^7.3.0",
