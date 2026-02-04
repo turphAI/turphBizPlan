@@ -1,10 +1,20 @@
 'use client'
 
+import { useState } from 'react'
 import { useInteractions } from '@/lib/hooks/useData'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
-import { Loader2, Calendar, User, Plus, MessageSquare, Coffee, Phone, Mail } from 'lucide-react'
+import { Loader2, Calendar, User, Plus, MessageSquare, Coffee, Phone, Mail, Pencil, Trash2, MoreVertical } from 'lucide-react'
 import { format } from 'date-fns'
+import { InteractionForm } from '@/components/forms/interaction-form'
+import { DeleteDialog } from '@/components/forms/delete-dialog'
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu'
+import type { NetworkingInteraction } from '@/lib/types'
 
 const interactionIcons = {
   meeting: Coffee,
@@ -16,6 +26,41 @@ const interactionIcons = {
 
 export function InteractionsView() {
   const { data: interactions, isLoading, error, refetch } = useInteractions()
+  const [formOpen, setFormOpen] = useState(false)
+  const [editingInteraction, setEditingInteraction] = useState<NetworkingInteraction | undefined>()
+  const [deletingInteraction, setDeletingInteraction] = useState<NetworkingInteraction | undefined>()
+  const [isDeleting, setIsDeleting] = useState(false)
+
+  const handleEdit = (interaction: NetworkingInteraction) => {
+    setEditingInteraction(interaction)
+    setFormOpen(true)
+  }
+
+  const handleDelete = async () => {
+    if (!deletingInteraction) return
+    setIsDeleting(true)
+
+    try {
+      const response = await fetch(`/api/interactions/${deletingInteraction.id}`, {
+        method: 'DELETE',
+      })
+
+      if (!response.ok) throw new Error('Failed to delete interaction')
+
+      refetch()
+      setDeletingInteraction(undefined)
+    } catch (error) {
+      console.error('Error deleting interaction:', error)
+      alert('Failed to delete interaction. Please try again.')
+    } finally {
+      setIsDeleting(false)
+    }
+  }
+
+  const handleFormSuccess = () => {
+    refetch()
+    setEditingInteraction(undefined)
+  }
 
   if (isLoading) {
     return (
@@ -41,7 +86,7 @@ export function InteractionsView() {
           <h2 className="text-2xl font-semibold">Interactions</h2>
           <p className="text-sm text-muted-foreground">{interactions.length} interactions</p>
         </div>
-        <Button size="sm">
+        <Button size="sm" onClick={() => { setEditingInteraction(undefined); setFormOpen(true); }}>
           <Plus className="w-4 h-4 mr-2" />
           Add Interaction
         </Button>
@@ -67,11 +112,12 @@ export function InteractionsView() {
                   className="p-4 border rounded-lg hover:bg-accent/50 transition-colors"
                 >
                   <div className="flex items-start gap-3">
-                    <div className="p-2 rounded-lg bg-primary/10">
-                      <Icon className="w-4 h-4 text-primary" />
-                    </div>
-                    
-                    <div className="flex-1">
+                    <div className="flex items-start gap-3 flex-1 cursor-pointer" onClick={() => handleEdit(interaction)}>
+                      <div className="p-2 rounded-lg bg-primary/10">
+                        <Icon className="w-4 h-4 text-primary" />
+                      </div>
+                      
+                      <div className="flex-1">
                       <div className="flex items-center gap-2">
                         <Badge variant="outline" className="text-xs capitalize">
                           {interaction.interactionType}
@@ -102,6 +148,27 @@ export function InteractionsView() {
                         </p>
                       )}
                     </div>
+                    </div>
+                    <DropdownMenu>
+                      <DropdownMenuTrigger asChild>
+                        <Button variant="ghost" size="sm">
+                          <MoreVertical className="w-4 h-4" />
+                        </Button>
+                      </DropdownMenuTrigger>
+                      <DropdownMenuContent align="end">
+                        <DropdownMenuItem onClick={() => handleEdit(interaction)}>
+                          <Pencil className="w-4 h-4 mr-2" />
+                          Edit
+                        </DropdownMenuItem>
+                        <DropdownMenuItem
+                          onClick={() => setDeletingInteraction(interaction)}
+                          className="text-destructive"
+                        >
+                          <Trash2 className="w-4 h-4 mr-2" />
+                          Delete
+                        </DropdownMenuItem>
+                      </DropdownMenuContent>
+                    </DropdownMenu>
                   </div>
                 </div>
               )
@@ -109,6 +176,25 @@ export function InteractionsView() {
           </div>
         </div>
       )}
+
+      <InteractionForm
+        open={formOpen}
+        onOpenChange={(open) => {
+          setFormOpen(open)
+          if (!open) setEditingInteraction(undefined)
+        }}
+        onSuccess={handleFormSuccess}
+        interaction={editingInteraction}
+      />
+
+      <DeleteDialog
+        open={!!deletingInteraction}
+        onOpenChange={(open) => !open && setDeletingInteraction(undefined)}
+        onConfirm={handleDelete}
+        title="Delete Interaction"
+        description={`Are you sure you want to delete this interaction? This action cannot be undone.`}
+        isLoading={isDeleting}
+      />
     </div>
   )
 }

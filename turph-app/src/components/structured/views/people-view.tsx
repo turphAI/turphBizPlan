@@ -1,12 +1,57 @@
 'use client'
 
+import { useState } from 'react'
 import { usePeople } from '@/lib/hooks/useData'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
-import { Loader2, Mail, Building2, Plus } from 'lucide-react'
+import { Loader2, Mail, Building2, Plus, Pencil, Trash2, MoreVertical } from 'lucide-react'
+import { PersonForm } from '@/components/forms/person-form'
+import { DeleteDialog } from '@/components/forms/delete-dialog'
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu'
+import type { Person } from '@/lib/types'
 
 export function PeopleView() {
   const { data: people, isLoading, error, refetch } = usePeople()
+  const [formOpen, setFormOpen] = useState(false)
+  const [editingPerson, setEditingPerson] = useState<Person | undefined>()
+  const [deletingPerson, setDeletingPerson] = useState<Person | undefined>()
+  const [isDeleting, setIsDeleting] = useState(false)
+
+  const handleEdit = (person: Person) => {
+    setEditingPerson(person)
+    setFormOpen(true)
+  }
+
+  const handleDelete = async () => {
+    if (!deletingPerson) return
+    setIsDeleting(true)
+
+    try {
+      const response = await fetch(`/api/people/${deletingPerson.id}`, {
+        method: 'DELETE',
+      })
+
+      if (!response.ok) throw new Error('Failed to delete person')
+
+      refetch()
+      setDeletingPerson(undefined)
+    } catch (error) {
+      console.error('Error deleting person:', error)
+      alert('Failed to delete person. Please try again.')
+    } finally {
+      setIsDeleting(false)
+    }
+  }
+
+  const handleFormSuccess = () => {
+    refetch()
+    setEditingPerson(undefined)
+  }
 
   if (isLoading) {
     return (
@@ -32,7 +77,7 @@ export function PeopleView() {
           <h2 className="text-2xl font-semibold">People</h2>
           <p className="text-sm text-muted-foreground">{people.length} contacts</p>
         </div>
-        <Button size="sm">
+        <Button size="sm" onClick={() => { setEditingPerson(undefined); setFormOpen(true); }}>
           <Plus className="w-4 h-4 mr-2" />
           Add Person
         </Button>
@@ -52,10 +97,10 @@ export function PeopleView() {
             {people.map((person) => (
               <div
                 key={person.id}
-                className="p-4 border rounded-lg hover:bg-accent/50 transition-colors cursor-pointer"
+                className="p-4 border rounded-lg hover:bg-accent/50 transition-colors"
               >
-                <div className="flex items-start justify-between">
-                  <div className="flex-1">
+                <div className="flex items-start justify-between gap-4">
+                  <div className="flex-1 cursor-pointer" onClick={() => handleEdit(person)}>
                     <h3 className="font-semibold text-lg">{person.name}</h3>
                     {person.title && (
                       <p className="text-sm text-muted-foreground">{person.title}</p>
@@ -87,12 +132,51 @@ export function PeopleView() {
                       </p>
                     )}
                   </div>
+                  <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                      <Button variant="ghost" size="sm">
+                        <MoreVertical className="w-4 h-4" />
+                      </Button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent align="end">
+                      <DropdownMenuItem onClick={() => handleEdit(person)}>
+                        <Pencil className="w-4 h-4 mr-2" />
+                        Edit
+                      </DropdownMenuItem>
+                      <DropdownMenuItem
+                        onClick={() => setDeletingPerson(person)}
+                        className="text-destructive"
+                      >
+                        <Trash2 className="w-4 h-4 mr-2" />
+                        Delete
+                      </DropdownMenuItem>
+                    </DropdownMenuContent>
+                  </DropdownMenu>
                 </div>
               </div>
             ))}
           </div>
         </div>
       )}
+
+      <PersonForm
+        open={formOpen}
+        onOpenChange={(open) => {
+          setFormOpen(open)
+          if (!open) setEditingPerson(undefined)
+        }}
+        onSuccess={handleFormSuccess}
+        person={editingPerson}
+      />
+
+      <DeleteDialog
+        open={!!deletingPerson}
+        onOpenChange={(open) => !open && setDeletingPerson(undefined)}
+        onConfirm={handleDelete}
+        title="Delete Person"
+        description={`Are you sure you want to delete ${deletingPerson?.name}? This action cannot be undone.`}
+        isLoading={isDeleting}
+      />
     </div>
   )
 }

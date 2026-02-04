@@ -1,13 +1,58 @@
 'use client'
 
+import { useState } from 'react'
 import { useEvents } from '@/lib/hooks/useData'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
-import { Loader2, Calendar, MapPin, DollarSign, Plus, ExternalLink } from 'lucide-react'
+import { Loader2, Calendar, MapPin, DollarSign, Plus, ExternalLink, Pencil, Trash2, MoreVertical } from 'lucide-react'
 import { format } from 'date-fns'
+import { EventForm } from '@/components/forms/event-form'
+import { DeleteDialog } from '@/components/forms/delete-dialog'
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu'
+import type { Event } from '@/lib/types'
 
 export function EventsView() {
   const { data: events, isLoading, error, refetch } = useEvents({ upcoming: 'true' })
+  const [formOpen, setFormOpen] = useState(false)
+  const [editingEvent, setEditingEvent] = useState<Event | undefined>()
+  const [deletingEvent, setDeletingEvent] = useState<Event | undefined>()
+  const [isDeleting, setIsDeleting] = useState(false)
+
+  const handleEdit = (event: Event) => {
+    setEditingEvent(event)
+    setFormOpen(true)
+  }
+
+  const handleDelete = async () => {
+    if (!deletingEvent) return
+    setIsDeleting(true)
+
+    try {
+      const response = await fetch(`/api/events/${deletingEvent.id}`, {
+        method: 'DELETE',
+      })
+
+      if (!response.ok) throw new Error('Failed to delete event')
+
+      refetch()
+      setDeletingEvent(undefined)
+    } catch (error) {
+      console.error('Error deleting event:', error)
+      alert('Failed to delete event. Please try again.')
+    } finally {
+      setIsDeleting(false)
+    }
+  }
+
+  const handleFormSuccess = () => {
+    refetch()
+    setEditingEvent(undefined)
+  }
 
   if (isLoading) {
     return (
@@ -33,7 +78,7 @@ export function EventsView() {
           <h2 className="text-2xl font-semibold">Events</h2>
           <p className="text-sm text-muted-foreground">{events.length} upcoming events</p>
         </div>
-        <Button size="sm">
+        <Button size="sm" onClick={() => { setEditingEvent(undefined); setFormOpen(true); }}>
           <Plus className="w-4 h-4 mr-2" />
           Add Event
         </Button>
@@ -55,8 +100,8 @@ export function EventsView() {
                 key={event.id}
                 className="p-4 border rounded-lg hover:bg-accent/50 transition-colors"
               >
-                <div className="flex items-start justify-between">
-                  <div className="flex-1">
+                <div className="flex items-start justify-between gap-4">
+                  <div className="flex-1 cursor-pointer" onClick={() => handleEdit(event)}>
                     <div className="flex items-center gap-2">
                       <h3 className="font-semibold text-lg">{event.name}</h3>
                       {event.tier === 'tier1' && (
@@ -116,12 +161,51 @@ export function EventsView() {
                       </a>
                     )}
                   </div>
+                  <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                      <Button variant="ghost" size="sm">
+                        <MoreVertical className="w-4 h-4" />
+                      </Button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent align="end">
+                      <DropdownMenuItem onClick={() => handleEdit(event)}>
+                        <Pencil className="w-4 h-4 mr-2" />
+                        Edit
+                      </DropdownMenuItem>
+                      <DropdownMenuItem
+                        onClick={() => setDeletingEvent(event)}
+                        className="text-destructive"
+                      >
+                        <Trash2 className="w-4 h-4 mr-2" />
+                        Delete
+                      </DropdownMenuItem>
+                    </DropdownMenuContent>
+                  </DropdownMenu>
                 </div>
               </div>
             ))}
           </div>
         </div>
       )}
+
+      <EventForm
+        open={formOpen}
+        onOpenChange={(open) => {
+          setFormOpen(open)
+          if (!open) setEditingEvent(undefined)
+        }}
+        onSuccess={handleFormSuccess}
+        event={editingEvent}
+      />
+
+      <DeleteDialog
+        open={!!deletingEvent}
+        onOpenChange={(open) => !open && setDeletingEvent(undefined)}
+        onConfirm={handleDelete}
+        title="Delete Event"
+        description={`Are you sure you want to delete ${deletingEvent?.name}? This action cannot be undone.`}
+        isLoading={isDeleting}
+      />
     </div>
   )
 }

@@ -1,12 +1,57 @@
 'use client'
 
+import { useState } from 'react'
 import { useCompanies } from '@/lib/hooks/useData'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
-import { Loader2, Building2, Globe, MapPin, Users, Plus } from 'lucide-react'
+import { Loader2, Building2, Globe, MapPin, Users, Plus, Pencil, Trash2, MoreVertical } from 'lucide-react'
+import { CompanyForm } from '@/components/forms/company-form'
+import { DeleteDialog } from '@/components/forms/delete-dialog'
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu'
+import type { Company } from '@/lib/types'
 
 export function CompaniesView() {
   const { data: companies, isLoading, error, refetch } = useCompanies()
+  const [formOpen, setFormOpen] = useState(false)
+  const [editingCompany, setEditingCompany] = useState<Company | undefined>()
+  const [deletingCompany, setDeletingCompany] = useState<Company | undefined>()
+  const [isDeleting, setIsDeleting] = useState(false)
+
+  const handleEdit = (company: Company) => {
+    setEditingCompany(company)
+    setFormOpen(true)
+  }
+
+  const handleDelete = async () => {
+    if (!deletingCompany) return
+    setIsDeleting(true)
+
+    try {
+      const response = await fetch(`/api/companies/${deletingCompany.id}`, {
+        method: 'DELETE',
+      })
+
+      if (!response.ok) throw new Error('Failed to delete company')
+
+      refetch()
+      setDeletingCompany(undefined)
+    } catch (error) {
+      console.error('Error deleting company:', error)
+      alert('Failed to delete company. Please try again.')
+    } finally {
+      setIsDeleting(false)
+    }
+  }
+
+  const handleFormSuccess = () => {
+    refetch()
+    setEditingCompany(undefined)
+  }
 
   if (isLoading) {
     return (
@@ -32,7 +77,7 @@ export function CompaniesView() {
           <h2 className="text-2xl font-semibold">Companies</h2>
           <p className="text-sm text-muted-foreground">{companies.length} companies</p>
         </div>
-        <Button size="sm">
+        <Button size="sm" onClick={() => { setEditingCompany(undefined); setFormOpen(true); }}>
           <Plus className="w-4 h-4 mr-2" />
           Add Company
         </Button>
@@ -52,10 +97,10 @@ export function CompaniesView() {
             {companies.map((company) => (
               <div
                 key={company.id}
-                className="p-4 border rounded-lg hover:bg-accent/50 transition-colors cursor-pointer"
+                className="p-4 border rounded-lg hover:bg-accent/50 transition-colors"
               >
-                <div className="flex items-start justify-between">
-                  <div className="flex-1">
+                <div className="flex items-start justify-between gap-4">
+                  <div className="flex-1 cursor-pointer" onClick={() => handleEdit(company)}>
                     <div className="flex items-center gap-2">
                       <Building2 className="w-5 h-5 text-muted-foreground" />
                       <h3 className="font-semibold text-lg">{company.name}</h3>
@@ -107,12 +152,51 @@ export function CompaniesView() {
                       </p>
                     )}
                   </div>
+                  <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                      <Button variant="ghost" size="sm">
+                        <MoreVertical className="w-4 h-4" />
+                      </Button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent align="end">
+                      <DropdownMenuItem onClick={() => handleEdit(company)}>
+                        <Pencil className="w-4 h-4 mr-2" />
+                        Edit
+                      </DropdownMenuItem>
+                      <DropdownMenuItem
+                        onClick={() => setDeletingCompany(company)}
+                        className="text-destructive"
+                      >
+                        <Trash2 className="w-4 h-4 mr-2" />
+                        Delete
+                      </DropdownMenuItem>
+                    </DropdownMenuContent>
+                  </DropdownMenu>
                 </div>
               </div>
             ))}
           </div>
         </div>
       )}
+
+      <CompanyForm
+        open={formOpen}
+        onOpenChange={(open) => {
+          setFormOpen(open)
+          if (!open) setEditingCompany(undefined)
+        }}
+        onSuccess={handleFormSuccess}
+        company={editingCompany}
+      />
+
+      <DeleteDialog
+        open={!!deletingCompany}
+        onOpenChange={(open) => !open && setDeletingCompany(undefined)}
+        onConfirm={handleDelete}
+        title="Delete Company"
+        description={`Are you sure you want to delete ${deletingCompany?.name}? This action cannot be undone.`}
+        isLoading={isDeleting}
+      />
     </div>
   )
 }
